@@ -5,14 +5,15 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/fxamacker/cbor/v2"
-	"github.com/hf/nsm/ioc"
-	"github.com/hf/nsm/request"
-	"github.com/hf/nsm/response"
 	"os"
 	"sync"
 	"syscall"
 	"unsafe"
+
+	"github.com/fxamacker/cbor/v2"
+	"github.com/jessicatrinh/nsm/ioc"
+	"github.com/jessicatrinh/nsm/request"
+	"github.com/jessicatrinh/nsm/response"
 )
 
 const (

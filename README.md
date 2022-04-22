@@ -12,7 +12,7 @@ You can import the package like so:
 
 ```go
 import (
-    "github.com/hf/nsm"
+    "github.com/jessicatrinh/nsm"
 )
 ```
 
@@ -65,7 +65,7 @@ Here's an example how you can use the NSM for entropy:
 import (
     "crypto/rand"
     "math/big"
-    "github.com/hf/nsm"
+    "github.com/jessicatrinh/nsm"
 )
 
 func generateBigPrime() (*big.Int, error) {
@@ -88,8 +88,8 @@ document][aws-nitro-attestation]:
 ```go
 import (
     "errors"
-    "github.com/hf/nsm"
-    "github.com/hf/nsm/request"
+    "github.com/jessicatrinh/nsm"
+    "github.com/jessicatrinh/nsm/request"
 )
 
 func attest(nonce, userData, publicKey []byte) ([]byte, error) {
@@ -135,10 +135,10 @@ reproducible builds without relying on `cgo`.
 Copyright &copy; 2021 Stojan Dimitrovski. Licensed under the MIT License. See
 `LICENSE` for more information.
 
-[go-reportcard-badge]: https://goreportcard.com/badge/github.com/hf/nsm
-[go-reportcard]: https://goreportcard.com/report/github.com/hf/nsm
-[pkg.go.dev-badge]: https://pkg.go.dev/badge/github.com/hf/nsm.svg
-[pkg.go.dev]: https://pkg.go.dev/github.com/hf/nsm
+[go-reportcard-badge]: https://goreportcard.com/badge/github.com/jessicatrinh/nsm
+[go-reportcard]: https://goreportcard.com/report/github.com/jessicatrinh/nsm
+[pkg.go.dev-badge]: https://pkg.go.dev/badge/github.com/jessicatrinh/nsm.svg
+[pkg.go.dev]: https://pkg.go.dev/github.com/jessicatrinh/nsm
 
 [nsm]: https://github.com/aws/aws-nitro-enclaves-nsm-api
 [aws-nitro-attestation]: https://docs.aws.amazon.com/enclaves/latest/user/set-up-attestation.html
