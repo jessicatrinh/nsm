@@ -1,4 +1,4 @@
-module github.com/hf/nsm
+module github.com/jessicatrinh/nsm
 
 go 1.15
 
